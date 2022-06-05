@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage ('Sorce Code'){
             steps {
-                git branch:'main', url:'https://github.com/pixelswapnil13/BasicNodeJsProgramme.git'
+                git branch:'main', url:'https://github.com/bravatjammu/rock.git'
             }
         }
         stage ('Install dependancies'){
